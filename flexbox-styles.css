@@ -1,6 +1,25 @@
-*[box-sizing: border-box;
-]
+*{
+    box-sizing: border-box;
+}
+
 
 main{
-    display: flex,
+    display: flex;
 }
+
+section{
+    padding-left: 2px;
+    padding-right: 2px;
+    flex: 1;
+
+
+}
+
+#desserts{
+    flex: 2;
+}
+
+#appetizers, #mains, #desserts{
+    background-color: rgb(167, 166, 166);
+}
+
